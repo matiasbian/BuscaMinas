@@ -1,25 +1,17 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene format=2]
 
-[ext_resource path="res://Scenes/GameManager.gd" type="Script" id=1]
+[node name="Node2D" type="Node2D"]
 
-[node name="Node2D" type="Node2D" index="0"]
-
-[node name="GameManager" type="Node2D" parent="." index="0"]
-
-script = ExtResource( 1 )
-filas = 3
-columnas = 4
-minas = 4
-
-[node name="CenterContainer" type="CenterContainer" parent="." index="1"]
+[node name="CenterContainer" type="CenterContainer" parent="." index="0"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_top = 228.0
-margin_right = 480.0
-margin_bottom = 268.0
+margin_left = 250.0
+margin_top = 50.0
+margin_right = 730.0
+margin_bottom = 90.0
 rect_min_size = Vector2( 480, 0 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
